@@ -1,0 +1,94 @@
+/* BudgetForm.css */
+
+.container {
+    position: relative;
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Adds space between each box */
+    align-items: center; /* Centers the content horizontally */
+  }
+  
+  .income-box,
+  .home-box,
+  .insurance-box {
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    background-color: white;
+    width: 100%;
+    max-width: 400px; /* Set max-width to limit stretching */
+  }
+  
+  .income-box h2,
+  .home-box h2,
+  .insurance-box h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .input-field,
+  .select-field,
+  .add-button {
+    border: 1px solid #e5e7eb;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+  }
+  
+  .input-field {
+    width: 100%;
+  }
+  
+  .select-field {
+    width: 6rem;
+  }
+  
+  .add-button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .add-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .total-income-display {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 2rem;
+    background-color: #f3f4f6;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 0.375rem;
+  }
+  
+  .budget-summary {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    width: 20rem; /* Set fixed width for the summary */
+  }
+  
+  .budget-summary h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  
+  .budget-summary div {
+    margin-top: 0.5rem;
+  }
+  
+  .budget-summary strong {
+    font-weight: 600;
+  }
+  
